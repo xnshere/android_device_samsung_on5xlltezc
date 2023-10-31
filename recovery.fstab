@@ -14,6 +14,5 @@
 
 /boot emmc /dev/block/mmcblk0p27
 /system ext4 /dev/block/mmcblk0p44
-/cache ext4 /dev/block/mmcblk0p45
 /recovery emmc /dev/block/mmcblk0p24
 
