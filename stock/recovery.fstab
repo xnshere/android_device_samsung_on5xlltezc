@@ -26,12 +26,10 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #<src>                                    <mnt_point>    <type>    <mnt_flags and options>    <fs_mgr_flags>
-/dev/block/bootdevice/by-name/boot        /boot           emmc        defaults                 recoveryonly
-/dev/block/bootdevice/by-name/recovery    /recovery       emmc        defaults                 recoveryonly
-/dev/block/bootdevice/by-name/system      /system         ext4        defaults                 recoveryonly
-/dev/block/bootdevice/by-name/userdata    /data           ext4        defaults                 wait,length=-16384
-/dev/block/bootdevice/by-name/cache       /cache          ext4        defaults                 recoveryonly
-/dev/block/mmcblk1p1                      /sdcard         vfat        defaults                 recoveryonly
+/dev/block/mmcblk0p27       /boot           emmc        defaults                 recoveryonly
+/dev/block/mmcblk0p24       /recovery       emmc        defaults                 recoveryonly
+/dev/block/mmcblk0p44       /system         ext4        defaults                 recoveryonly
+/dev/block/mmcblk0p45       /cache          ext4        defaults                 recoveryonly
 /dev/block/bootdevice/by-name/efs         /efs            ext4        defaults                 recoveryonly
 /dev/block/bootdevice/by-name/apnhlos     /modem          emmc        defaults                 recoveryonly
 /dev/block/bootdevice/by-name/modem       /mdm            emmc        defaults                 recoveryonly
