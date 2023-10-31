@@ -29,7 +29,6 @@
 /dev/block/mmcblk0p27       /boot           emmc        defaults                 recoveryonly
 /dev/block/mmcblk0p24       /recovery       emmc        defaults                 recoveryonly
 /dev/block/mmcblk0p44       /system         ext4        defaults                 recoveryonly
-/dev/block/mmcblk0p45       /cache          ext4        defaults                 recoveryonly
 /dev/block/bootdevice/by-name/efs         /efs            ext4        defaults                 recoveryonly
 /dev/block/bootdevice/by-name/apnhlos     /modem          emmc        defaults                 recoveryonly
 /dev/block/bootdevice/by-name/modem       /mdm            emmc        defaults                 recoveryonly
